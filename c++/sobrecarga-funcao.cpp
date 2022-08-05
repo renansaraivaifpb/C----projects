@@ -1,3 +1,7 @@
+//Anotação:
+// Sobrecargas de funções é uma prática usada para declarar diferentes funções com o mesmo nome, entretanto, seus parâmetros devem ser distintos. 
+// Caso contrário, terá problemas em sua compilação.
+
 // bibliotecas
 #include <iostream>
 #include <stdio.h>
@@ -23,7 +27,7 @@ int main(){
 	// funcao int de retorno
 	int calculo = calcula();
 	cout << calculo << endl;
-  // sobrecarga int
+        // sobrecarga int
 	calculo = calcula(5, 5);
 	cout << calculo << endl;
   
